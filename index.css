@@ -16,11 +16,7 @@ html {
   ol, ul {
     list-style: none;
   }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-  }
+
 body{
     font-family: 'League Spartan', sans-serif;
 }
@@ -49,5 +45,29 @@ body{
     margin-bottom: 61px;
     font-size: 32px;
     line-height: 50px;
-    font-weight: 300;
+}
+.buy-wrapper{
+  display: flex;
+}
+.buy-link{
+  display: block;
+  width: 278px;
+  height: 82px;
+  background-color:#161515;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 32px;
+  line-height:82px;
+  text-align: center;
+}
+.price{
+    width: 143px;
+    height: 82px;
+    background-color:#ffffff;
+    color: #272727;
+    text-decoration: none;
+    font-size: 32px;
+    line-height:82px;
+    text-align: center;
+
 }
